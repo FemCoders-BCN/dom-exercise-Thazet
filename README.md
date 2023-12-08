@@ -1,21 +1,43 @@
-# Dom exercise
+# Dom exercise with vitest and Node.js
+This exercise is designed to practice DOM manipulation using vitest and Node.js.
 
-Este repositorio nos servirá como base para coonocer los diferente tipos de Dom que tenemos en javascript y construir de tal forma un proyecto que podría ser real. También, a parte de la explicación recibida en clase, las coder deberán realizar una refactorización del código que tenga después de la explicación y la realización de los test de cada función.
+Hello, in this project shows how to customize the client cart according to the car color choose by the user. When the user choose a red car, the car photo should be red and the color of the menu bar and the cart should correspond the same color. This actions will be repeated when the use choose the black and gray cars too.
 
-El proyecto ya esta realizado con la arquitectura adecuada para su funcionamiento.
 
-## Requisitos para el funcionamiento actual
-
+## Tecnologias empleadas
 - Visual Studio Code
 
-## Requisitos para realizar el testing
+### Install vitest
 
-- El testing se deberá de realizar en [vitest](https://vitest.dev/guide/)
-- Una vez instalado deberás poner en este **readme** (que deberás modificar), el proceso para que una persona que llegué al repositorio pueda hacer correr los test
+ -Clone the repository
+    git clone https://github.com/FemCoders-BCN/dom-exercise-Thazet.git
 
-## Requisitos del Readme
+Navigate to the project directory
+    cd dom-exercise-Thazet
 
-- DEBERÁ llevar una breve descripción del proyecto
-- DEBERÁ lleva las imágenes que muestren el proyecto
-- DEBERÁ llevar las tecnologías empleadas
-- DEBERÁ llevar como se debe hacer el proceso para instalar todo lo necesario para que se corran los test (instalar nodejs, hacer npm install  o npm i)
+2-Make sure you have the following installed on your machine:
+    Node.js (version >=v18.00)
+        npm (usually comes with Node.js installation)
+
+3- The test used is Vitest [vitest](https://vitest.dev/guide/)
+
+
+5- Install dependencies
+    npm install
+6 - nmp test    
+
+
+
+
+Visit http://127.0.0.1:5500/index.html to view and interact with the exercise.
+
+#### Additional Information
+
+-This exercise uses vitest for testing and Node.js for running the server.
+-Modify the necessary files inside the src directory to complete the exercise.
+-Refer to the provided documentation or exercises for specific instructions on tasks.
+
+Contributing
+
+-If you'd like to contribute to this exercise, feel free to fork the repository and submit a pull request.
+

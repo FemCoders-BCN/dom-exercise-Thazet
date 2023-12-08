@@ -1,29 +1,30 @@
-const redColor = document.getElementsByClassName('red');
-const imgCard = document.querySelector ('product-card');
-const cardbutton = document.getElementById ('button');
-const tagname = document.querySelector ('h3');
+const redColor = document.querySelector(".red");
+const blackColor = document.querySelector(".black");
+const grayColor = document.getElementsByClassName(".gray");
+const imgCard = document.querySelector("product-image");
+const cartButton = document.getElementById("button");
+const itemTag = document.getElementsByTagName("h3");
 
 
-redColor.addeventlistener ('click'),function (){
-imgCard.computedStyleMap.backgroundimage= 'URL ("../../public/img/redcar.jpg")';
-cardbutton.stylebackgroundcolor = 'red'
-tagname.style.backgroundcolor = 'red';
-};
+redColor.addEventListener("click", ()=>{
+    imgCard.style.backgroundImage = 'url(././public/img/redcar.jpg)';
+    imgCard.alt='Red car';
+    cartButton.style.backgroundColor = "red"
+    itemTag.style.backgroundColor = "red"
+});
 
-const blackColor = document.getElementsByClassName('black');
-const imgCardblack = document.querySelector ('product-card');
-const cardbuttonblack = document.getElementById ('button');
-const tagnamblack = document.querySelector ('h3');
+ blackColor.addEventListener("click", ()=>{
+    imgCard.style.backgroundImage ='url(././public/img/blackcar.jpg)';
+    imgCard.alt= 'Black car';
+    cartButton.style.backgroundColor = "black";
+    itemTag.style.backgroundColor = "black";
+});
 
-blackColor.addeventlistener ('click'),function (){
-    imgCard.computedStyleMap.backgroundimage= 'URL ("../../public/img/blackcar.jpg")';
-    cardbutton.stylebackgroundcolor = 'black'
-    tagname.style.backgroundcolor = 'black';
-    };
 
-const grayColor = document.getElementsByClassName ('gray');
-grayColor.addeventlistener ('click'),function (){
-    imgCard.computedStyleMap.backgroundimage= 'URL ("../../public/img/graycar.jpg")';
-    cardbutton.stylebackgroundcolor ='gray'
-    tagname.style.backgroundcolor ='gray';
-    };
+grayColor.addEventListener("click", ()=>{
+    imgCard.style.backgroundImage = 'url(././public/img/graycar.jpg)';
+    imgCard.alt='Gray Car';
+    cartButton.style.backgroundColor = "gray";
+    itemTag.style.backgroundcolor = "gray";
+    });
+
